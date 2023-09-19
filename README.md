@@ -12,6 +12,16 @@
               'git6': '#ff00ff',
               'git7': '#00ffff'
        } } }%%
+%%{init: { 'logLevel': 'debug', 'theme': 'default' , 'themeVariables': {
+              'git0': '#ff0000',
+              'git1': '#00ff00',
+              'git2': '#0000ff',
+              'git3': '#ff00ff',
+              'git4': '#00ffff',
+              'git5': '#ffff00',
+              'git6': '#ff00ff',
+              'git7': '#00ffff'
+       } } }%%
 gitGraph
 commit id:"s3"  tag:"1:00 pm"
 commit id:"RNC MAIN" tag:"1:05 pm"
@@ -51,7 +61,20 @@ branch "TRAIN 2325"
 commit id:"  VASHI MAIN " tag:"8:20pm"
 commit id:"  VASHI V3 " tag:"8:30 pm"
 commit id:"  RNC-VASHI BORDER 3 " tag:"8:40 pm"
-commit id: "  RNC S7 " type:HIGHLIGHT tag:"9:10 pm"
-commit id:"  RNC MAIN "type:REVERSE tag:"9:15 pm"
-
+commit id: "  RNC S7 "  tag:"9:10 pm"
+commit id:"  RNC MAIN " type:REVERSE tag:"9:15 pm"
+branch "TRAIN 2326"
+commit id:"    s3"   tag:"10:00 pm"
+commit id:"    RNC MAIN" tag:"10:05 pm"
+commit id:"    RNC S7" tag:"10:10 pm"
+commit id:"    RNC-VASHI BORDER 3" type: REVERSE tag: "10:40 pm"
+commit id:"    VASHI V3" type:HIGHLIGHT tag:"10:50 pm"
+commit id:"    VASHI MAIN" tag:"11:00 pm"
+branch "TRAIN 2327"
+%% 
+commit id:"   VASHI MAIN " tag:"11:20pm"
+commit id:"   VASHI V3 " tag:"11:30 pm"
+commit id:"   RNC-VASHI BORDER 3 " tag:"11:40 pm"
+commit id: "   RNC S7 "  tag:"00:10 pm"
+commit id:"   RNC MAIN " type:HIGHLIGHT  tag:"00:15 pm"
 ```
